@@ -71,6 +71,7 @@ If this is your first time contributing to open source, don't worry! We've got y
   <table>
     <tr>
       <td align="center"><a href="https://github.com/adithya-s-k"><img src="https://avatars.githubusercontent.com/u/27956426?s=400&u=582ecb2d706a63fc67eb1b54579c7ab19cf391fd&v=4" width="100px;" alt=""/><br /><sub><b>Adithya S Kolavi</b></sub></a><br /><a href="https://github.com/dscpesu/my-first-opensource-contribution/commits?author=adithya-s-k" title="Code">💻</a></td>
+            <td align="center"><a href="https://github.com/karthik2603-theBrogrammer"><img src="https://avatars.githubusercontent.com/u/103726023?s=400&u=582ecb2d706a63fc67eb1b54579c7ab19cf391fd&v=4" width="100px;" alt=""/><br /><sub><b>Karthik Namboori</b></sub></a><br /><a  title="Code">💻</a></td>
     </tr>
   </table>
 </div>
