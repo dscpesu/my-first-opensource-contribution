@@ -49,6 +49,7 @@ export default function Page({ params }) {
     return (
       <div className="grid place-items-center h-[100vh] w-[100vw]">
         <p className="text-2xl md:text-5xl">Oops {slug}, We are unable to find you! 👀</p>
+        <p>{JSON.stringify(props.frontMatter)}</p>
       </div>
     );
   }
