@@ -22,9 +22,11 @@ export async function generateStaticPaths() {
 function getContributions(slug) {
   const filePath = path.join("contributions", `${slug}.mdx`);
 
+  console.log(filePath)
   if (!fs.existsSync(filePath)) {
     return {
       status: false,
+      frontMatter: {issue:'kjdnwdnwkj', path :`${filePath}`}
     };
   }
 
