@@ -20,11 +20,14 @@ export async function generateStaticPaths() {
 }
 
 function getContributions(slug) {
-  const filePath = path.join("contributions", `${slug}.mdx`);
+  const contributionsDir = path.resolve(process.cwd(), "contributions");
+  const filePath = path.join(contributionsDir, `${slug}.mdx`);
 
+  console.log(filePath);
   if (!fs.existsSync(filePath)) {
     return {
       status: false,
+      frontMatter: { issue: "critical", path: `${filePath}` },
     };
   }
 
@@ -46,7 +49,10 @@ export default function Page({ params }) {
   if (!props.status) {
     return (
       <div className="grid place-items-center h-[100vh] w-[100vw]">
-        <p className="text-2xl md:text-5xl">Oops {slug}, We are unable to find you! 👀</p>
+        <p className="text-2xl md:text-5xl">
+          Oops {slug}, We are unable to find you! 👀
+        </p>
+        <p>{JSON.stringify(props.frontMatter)}</p>
       </div>
     );
   }
