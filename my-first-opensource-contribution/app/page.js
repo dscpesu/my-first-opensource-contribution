@@ -67,7 +67,7 @@ export default function Home() {
           {" "}
           🥳 That's it! Once your PR is merged, you'll have your personal
           profile page on our website at{" "}
-          <code>gdscpesu.com/hackfest/your-username.</code>
+          <code>contributions.gdscpesu.com/hackfest/[your-name]</code>
         </div>
       </div>
     </main>

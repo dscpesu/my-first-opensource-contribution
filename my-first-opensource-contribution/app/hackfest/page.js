@@ -40,7 +40,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col gap-3 items-center justify-center text-black my-6 px-9 text-center">
         <h1 className="text-xl md:text-3xl text-gray-500 ">
-          Our Contributors along the way :
+          Our Contributors along the way:
         </h1>
         <hr />
         <div className="flex flex-wrap gap-5">
