@@ -43,9 +43,9 @@ export default function Home() {
           Our Contributors along the way:
         </h1>
         <hr />
-        <div className="flex flex-wrap gap-5">
+        <div className="flex flex-wrap justify-center gap-5 p-6  border-2 border-gray-500 rounded max-h-80 md:max-h-[325px] overflow-y-auto">
           {slugNames.map((ele)=>{
-            return(<Link className="my-2 p-2 border-2 border-gray-500 rounded text-gray-500 hover:text-black hover:border-black hover:scale-110 cursor-pointer transition-transform" href={`/hackfest/${ele}`} >{ele}</Link>)
+            return(<Link key={ele} className="m-1 p-2 border-2 border-gray-500 rounded text-gray-500 hover:text-black hover:border-black hover:scale-110 cursor-pointer transition-transform" href={`/hackfest/${ele}`} >{ele}</Link>)
           })}
         </div>
         <hr />

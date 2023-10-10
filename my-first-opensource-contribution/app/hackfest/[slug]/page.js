@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import HeroBanner from "@/app/Components/HeroBanner";
 import Introduction from "@/app/Components/Introduction";
+import customTags from "@/app/Components/Hackfest/CustomTags";
 
 export async function generateStaticPaths() {
   const files = fs.readdirSync(path.join("contributions"));
@@ -57,7 +58,7 @@ export default function Page({ params }) {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center  text-black gap-9">
+    <div className="flex flex-col items-center justify-center  text-black gap-9 pb-10 md:px-5">
       <HeroBanner />
       <div className="md:px-48 px-12 mb-16">
         <Introduction
@@ -66,7 +67,7 @@ export default function Page({ params }) {
           semester={props.frontMatter.semester}
         />
       </div>
-      <MDXRemote source={props.content} />
+      <MDXRemote source={props.content} components={ customTags } />
     </div>
   );
 }
