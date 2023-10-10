@@ -23,7 +23,6 @@ function getContributions(slug) {
   const contributionsDir = path.resolve(process.cwd(), "contributions");
   const filePath = path.join(contributionsDir, `${slug}.mdx`);
 
-  console.log(filePath);
   if (!fs.existsSync(filePath)) {
     return {
       status: false,
