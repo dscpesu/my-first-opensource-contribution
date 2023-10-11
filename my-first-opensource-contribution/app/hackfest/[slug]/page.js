@@ -5,6 +5,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import HeroBanner from "@/app/Components/HeroBanner";
 import Introduction from "@/app/Components/Introduction";
 import customTags from "@/app/Components/Hackfest/CustomTags";
+import Navbar from "@/app/Components/Navbar";
 
 export async function generateStaticPaths() {
   const files = fs.readdirSync(path.join("contributions"));
@@ -59,6 +60,7 @@ export default function Page({ params }) {
 
   return (
     <>
+    <Navbar />
       <HeroBanner />
     <div className="flex flex-col items-center justify-center  text-black gap-9 pb-10 md:px-32">
       <div className="md:px-48 px-12 mb-16 my-16">
