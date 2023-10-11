@@ -2,6 +2,7 @@ import Image from "next/image";
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
+import Navbar from "../Components/Navbar";
 
 function getAllContributions() {
   const contributionsDir = path.resolve(process.cwd(), "contributions");
@@ -24,7 +25,8 @@ export default function Home() {
   const slugNames = getAllContributions();
   return (
     <main className="flex min-h-screen flex-col items-center justify-start ">
-      <div className="relative w-full h-[40vh] object-cover flex flex-col items-center justify-center gap-2    bg-[url('/hero-vector.png')]  ">
+      <Navbar />
+      <div className="relative w-full h-[60vh] object-cover flex flex-col items-center justify-center gap-2    bg-[url('/hero-vector.png')]  ">
         <Image
           src={"/gdsc_logo.png"}
           alt="gdsc-logo-title"
@@ -43,9 +45,9 @@ export default function Home() {
           Our Contributors along the way:
         </h1>
         <hr />
-        <div className="flex flex-wrap gap-5">
+        <div className="flex flex-wrap justify-center gap-5 p-6  border-2 border-gray-500 rounded max-h-48 md:max-h-[200px] overflow-y-auto">
           {slugNames.map((ele)=>{
-            return(<Link className="my-2 p-2 border-2 border-gray-500 rounded text-gray-500 hover:text-black hover:border-black hover:scale-110 cursor-pointer transition-transform" href={`/hackfest/${ele}`} >{ele}</Link>)
+            return(<Link key={ele} className="m-1 p-2 border-2 border-gray-500 rounded text-gray-500 hover:text-black hover:border-black hover:scale-110 cursor-pointer transition-transform" href={`/hackfest/${ele}`} >{ele}</Link>)
           })}
         </div>
         <hr />

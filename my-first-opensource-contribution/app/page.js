@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Navbar from "./Components/Navbar";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start ">
-      <div className="relative w-full h-[40vh] object-cover flex flex-col items-center justify-center gap-2    bg-[url('/hero-vector.png')]  ">
+      <Navbar />
+      <div className="relative w-full h-[60vh] object-cover flex flex-col items-center justify-center gap-1    bg-[url('/hero-vector.png')]  ">
         <Image
           src={"/gdsc_logo.png"}
           alt="gdsc-logo-title"
