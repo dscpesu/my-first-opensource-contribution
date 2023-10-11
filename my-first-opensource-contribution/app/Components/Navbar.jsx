@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`fixed backdrop-blur-md w-full z-20 top-0 left-0 border-b border-gray-200 md:pt-1 pt-3 shadow-md ${navbarOpen ? 'bg-white' : ''}`}>
+    <nav className={`fixed backdrop-blur-md w-full z-20 top-0 left-0 border-b border-gray-200 md:py-3 pt-3 shadow-md ${navbarOpen ? 'bg-white' : ''}`}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/hackfest" className="flex items-center">
           <Image
@@ -27,9 +27,9 @@ export default function Navbar() {
         <div className="flex md:order-2">
           <Link
             href="https://github.com/dscpesu/my-first-opensource-contribution"
-            className="flex justify-center items-center gap-2 p-2 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0"
+            className="flex justify-center items-center gap-2 p-2 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-2 text-center mr-3 md:mr-0"
           >
-            <AiOutlineStar /> Give us a Star <VscGithub />
+            <AiOutlineStar /><span>Give us a Star</span> <VscGithub />
           </Link>
           <button
             type="button"
@@ -70,7 +70,7 @@ export default function Navbar() {
                 href="/hackfest"
                 className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0"
               >
-                Contribute
+                Contributions
               </a>
             </li>
             <li>

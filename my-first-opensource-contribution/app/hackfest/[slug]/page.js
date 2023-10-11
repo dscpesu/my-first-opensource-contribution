@@ -49,11 +49,12 @@ export default function Page({ params }) {
 
   if (!props.status) {
     return (
-      <div className="grid place-items-center h-[100vh] w-[100vw]">
-        <p className="text-2xl md:text-5xl">
+      <div className="flex flex-col items-center justify-center h-[100vh] w-full px-9 flex-wrap">
+        <p className="text-2xl md:text-5xl text-center">
           Oops {slug}, We are unable to find you! 👀
         </p>
-        <p>{JSON.stringify(props.frontMatter)}</p>
+        {/* <p className="text-sm px-9">{JSON.stringify(props.frontMatter)}</p> */}
+      
       </div>
     );
   }
