@@ -11,7 +11,7 @@ Hi! I am Abhay, I am a first semester student at PES University. I am a Web Dev 
 **Languages:**
 - Python
 - C
-**Tools**
+***Tools***
 - MySQL
 - PostgreSQL
 
