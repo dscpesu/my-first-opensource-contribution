@@ -11,12 +11,13 @@ Hi! I am Abhay, I am a first semester student at PES University. I am a Web Dev 
 **Languages:**
 - Python
 - C
-***Tools***
+
+**Tools**
 - MySQL
 - PostgreSQL
 
 # Projects
-**ShareSquare**
+**ShareSquare:**
  - A friendly way to split bills with your friends. 
  - Currently under development.
 
