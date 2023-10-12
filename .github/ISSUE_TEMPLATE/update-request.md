@@ -1,48 +1,30 @@
 ---
 name: Update Request
-about: If you want to make any updates to a project
-title: "[UPDATE]"
+about: If you want to make any updates to a project or your markdown file
+title: "Wnat to UPDATE [your name] Markdown"
 labels: ""
 assignees: ""
 ---
 
-<!-- I want to change the data set for this particular project -->
+<!-- PLease make sure that you mention your full name to avoid clashing-->
+Project Request to update [your name] markdown file and route
+<!-- Describe the project and the problem statement-->
 
 ---
 
 | Field  | Description                       |
 | ------ | --------------------------------- |
-| About  | A short Description about project |
+| Name | Name(Will come on E certificate) |
+| Email  | Valid Email Id(We Will send Certificates to this)                                   |
 | Github | Your Github name                  |
-| Email  |                                   |
-| Label  | Update request                    |
+
 
 <!-- your github profile link -->
 
 ---
 
-**Define You**
+**What do you what to contribute to:**
 
+- [ ] HackFest GDSC Contributor
 - [ ] Hacktober Fest Contributor
 
-<!-- Have you talked to any of the Moderators or Project Admin (Adithya S K or CognitiveLab) before creating this issue? If not, just have a quick discussion and then once approved, create this feature request. -->
-
-**Is your feature request related to a problem? Please describe.**
-
-<!-- A clear and concise description of what the problem is. -->
-
-**Describe the solution you'd like...**
-
-<!-- A clear and concise description of what you want to happen. -->
-
-**Describe alternatives you've considered?**
-
-<!-- A clear and concise description of any alternative solutions or features you've considered. -->
-
-**Approach to be followed (optional):**
-
-<!-- A clear and concise description of approach to be followed. -->
-
-**Additional context**
-
-<!-- Add any other context or screenshots about the feature request here. -->
