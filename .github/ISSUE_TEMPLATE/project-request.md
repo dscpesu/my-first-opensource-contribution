@@ -1,7 +1,7 @@
 ---
 name: Project Request
 about: If you want to propose a project idea that can be added to the repository
-title: "[PROJECT PROPOSAL]"
+title: "Add [your name] Markdown"
 labels: ""
 assignees: ""
 ---
@@ -14,39 +14,18 @@ assignees: ""
 
 | Field  | Description                       |
 | ------ | --------------------------------- |
-| About  | A short Description about project |
+| Name | Name(Will come on E certificate) |
+| Email  | Valid Email Id(We Will send Certificates to this)                                   |
 | Github | Your Github name                  |
-| Email  |                                   |
-| Label  | Project Request                   |
+
 
 <!-- your github profile link -->
 
 ---
 
-**Define You**
+**What do you what to contribute to:**
 
+- [ ] HackFest GDSC Contributor
 - [ ] Hacktober Fest Contributor
 
-<!-- Have you talked to any of the Moderators or Project Admin (Adithya S K or CognitiveLab) before creating this issue? If not, just have a quick discussion and then once approved, create this feature request. -->
 
-# Project Name
-
-<!-- Replace with the project name -->
-
-## Description
-
-<!-- add description to the project -->
-
-[Description of the project, its goals, and expected outcomes]
-
-## Scope
-
-[The project's boundaries, including its objectives, deliverables, and constraints]
-
-## Timeline
-
-[The project's estimated start and end dates, milestones, and deadlines for deliverables]
-
-## Video Links or Support Links
-
-[Links that can support the project in anyway]
