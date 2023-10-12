@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Navbar from "./Components/Navbar";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start ">
-      <div className="relative w-full h-[40vh] object-cover flex flex-col items-center justify-center gap-2    bg-[url('/hero-vector.png')]  ">
+      <Navbar />
+      <div className="relative w-full h-[60vh] object-cover flex flex-col items-center justify-center gap-1    bg-[url('/hero-vector.png')]  ">
         <Image
           src={"/gdsc_logo.png"}
           alt="gdsc-logo-title"
@@ -16,7 +18,7 @@ export default function Home() {
           Make Your First Open Source Contribution!
         </p>
       </div>
-      <div className="flex flex-col gap-3 items-center justify-center text-black my-6 px-9 text-center">
+      <div className="flex flex-col gap-3 items-center justify-center text-black my-6 px-5 text-center">
         <h1 className="text-xl md:text-3xl text-gray-500 ">
           Steps To Make Your First Contribution:
         </h1>
@@ -61,15 +63,15 @@ export default function Home() {
           </div>
         </div>
         <hr />
-        
-
-        <div>
-          {" "}
-          🥳 That's it! Once your PR is merged, you'll have your personal
-          profile page on our website at{" "}
-          <code>contributions.gdscpesu.com/hackfest/[your-name]</code>
-        </div>
       </div>
+      <div className="flex flex-col items-center justify-center w-fit px-2 my-4 gap-y-3">
+          <p className="text-center"> 🥳 That's it! Once your PR is merged, you'll have your personal
+          profile page on our website at</p>
+          <div className="flex flex-col md:flex-row ">
+          <code className=" text-center">contributions.gdscpesu.com</code>
+          <code className=" text-center">/hackfest/[your-name]</code>
+          </div>
+        </div>
     </main>
   );
 }
