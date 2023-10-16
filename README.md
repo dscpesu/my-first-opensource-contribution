@@ -117,5 +117,3 @@ If you have any questions or need support, feel free to reach out to us at **dsc
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 <hr>
-
-hey guys
