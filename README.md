@@ -61,8 +61,8 @@ This is your chance to showcase your skills, projects, and contributions to the 
 
 If this is your first time contributing to open source, don't worry! We've got you covered. Check out these resources to get started:
 
-- [GitHub Guide: Forking a Repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
-- [GitHub Guide: Creating a Pull Request](https://docs.github.com/en/get-started/quickstart/opening-an-issue)
+- [GitHub Guide: Forking a Repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+- [GitHub Guide: Creating a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 - [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## 👨‍💼 Project Admin
